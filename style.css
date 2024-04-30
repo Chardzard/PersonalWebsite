@@ -1,0 +1,50 @@
+.lead.mb-4 {
+    width: 50%;
+    margin: auto;
+}
+
+.title-section {
+    padding-bottom: 10px;
+    background-color: lightgray;
+}
+
+.lead.mb-4 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.display-5.fw-bold.text-body-emphasis {
+    font-family: "Arial", "Helvetica", "sans-serif";
+    color: blueviolet!important;
+}
+
+.d-block.mx-auto.mb-4 {
+    width: 350px;
+    height: 450px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.badge.text-bg-success.rounded-pill {
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -25px;
+}
+
+.icon-square.text-body-emphasis.bg-body-secondary.d-inline-flex.align-items-center.justify-content-center.fs-4.flex-shrink-0.me-3 {
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.fs-2.text-body-emphasis {
+    color: black!important;
+}
+
+.skills-section {
+    background-color: lightskyblue;
+}
+
+.xp-gang {
+    margin-top: -30px;
+    margin-bottom: -50px;
+}
