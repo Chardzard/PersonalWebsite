@@ -1,0 +1,50 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 26px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 24px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 22px;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+}
+
+div {
+    text-align: center;
+}
+
+ul {
+    display: table;
+    margin: 0 auto;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+center {
+    font-size: xx-large;
+}
+
+li {
+    font-size: 17.5px;
+}
+
+.pro-summary {
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: 0px 450px 0px 450px;
+}
