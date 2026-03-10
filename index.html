@@ -30,7 +30,7 @@
       <img class="d-block mx-auto mb-4" src="./headshot.jpg" alt="" width="72" height="57">
       <h1 class="display-5 fw-bold text-body-emphasis">Hello, World!</h1>
       <div class="col-lg-6 mx-auto">
-        <p class="lead mb-4">I am currently pursuing my bachelor's degree in secure software development.
+        <p class="lead mb-4">I am currently finishing my bachelor's degree in secure software development.
           I have a passion for security research and enjoy ethical hacking in my free time &#128526
         </p>
         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
@@ -63,7 +63,7 @@
                 </div>
                 <div>
                   <h3 class="fs-2 text-body-emphasis">Programming</h3>
-                  <p>I believe the ability to read and write code provides a fundamental foundation to truly understand how these crazy machines really work. I'm also deeply interested in the underlying security in code itself. I'm proficient in Python, Bash, SQL, HTML, CSS, JavaScript, C/C++, and the x86/x64 Intel and Microsoft Assembly languages. I've built standalone applications that connect to external databases, generate GUIs, and even generate HTML in a webpage for the user to play a game of Jeopardy. With experience in full stack web development on the side, I've built multiple web pages utilizing proper UI/UX and web design techniques, as well as a robust traffic monitoring web app using Flask. I've also written custom red-teaming scripts, including an SSH brute force tool and a SHA-256 hash cracking tool, all of which can be found on my GitHub <a href="https://github.com/Chardzard">here</a></p>
+                  <p>I believe the ability to read and write code provides a fundamental foundation to truly understand how these crazy machines really work. I'm also deeply interested in the underlying security in code itself. I'm proficient in Python, Bash, PowerShell, SQL, HTML, CSS, JavaScript, C/C++, and the x86/x64 Intel and Microsoft Assembly languages. I've built standalone applications that connect to external databases, generate GUIs, and even generate HTML in a webpage for the user to play a game of Jeopardy. With experience in full stack web development on the side, I've built multiple web pages utilizing proper UI/UX and web design techniques, as well as a robust traffic monitoring web app using Flask and a blog web app using Node, Express, and EJS. I've also written custom red-teaming scripts, including a SHA-256 hash cracking tool, all of which can be found on my GitHub <a href="https://github.com/Chardzard">here</a></p>
                 </div>
               </div>
               <div class="col d-flex align-items-start">
@@ -78,7 +78,7 @@
                 </div>
                 <div>
                   <h3 class="fs-2 text-body-emphasis">Red-Teaming</h3>
-                  <p>After taking an Intro to Ethical Hacking course, I delved deeper into computer networks and security, developing a strong foundation in this field. I've since participated in numerous CTF and red/blue team challenges, earned my Security+ certification, and attended the DefCon security conference, where I discovered a passion for application security and reverse engineering. I've also taken courses in advanced red-teaming tactics, malware development, and enterprise phishing, further expanding my expertise. In my free time, I enjoy participating in CrackMe challenges, Hack the Box labs, and TryHackMe paths to stay sharp and continually improve my skills. I beleive there is always something new to learn. My long-term goal is to pursue a career in exploit development, and I'm currently studying for the <a href="https://academy.hackthebox.com/preview/certifications/htb-certified-penetration-testing-specialist">HTB CPTS certification</a></p>
+                  <p>After taking an Intro to Ethical Hacking course, I delved deeper into computer networks and security, developing a strong foundation in this field. I've since participated in numerous CTF and red/blue team challenges, including volunteering as a red teamer for the 2026 RMCCDC. I also earned my Security+ certification and attended the DefCon security conference, where I discovered a passion for application security and reverse engineering. I've taken courses in advanced red-teaming tactics, malware development, and enterprise phishing, further expanding my expertise. In my free time, I enjoy participating in CrackMe challenges and Hack the Box labs to stay sharp and continually improve my skills. I believe there is always something new to learn. My long-term goal is to pursue a career in exploit development, and I'm currently studying for the <a href="https://www.offsec.com/courses/pen-200/">OSCP certification</a></p>
                 </div>
               </div>
               <div class="col d-flex align-items-start">
@@ -93,7 +93,7 @@
                 </div>
                 <div>
                   <h3 class="fs-2 text-body-emphasis">Networking</h3>
-                  <p>I'm passionate about understanding how computer networks function and work together to create the beautiful internet we all know and love. I've built small-scale OSPF networks as well as enterprise-level infrastructures featuring VLANs, DHCP, DNS, dynamic routing, segmentation, security and access controls, network monitoring mechanisms, and secure Wi-Fi. I also host a home media server utilizing Docker, Jellyfin, Tailscale, the *arr suite of apps and a few trustworthy NZB indexers. I have recently been building out the Red Rocks Community College CyberLab infrastructure using a collapsed-core network model with an MDF and 3 IDF's for Cisco networking classes. Additionally, I'm establishing a fully virtualized Windows Active Directory environment using a highly available Proxmox cluster in order to host CTFs</p>
+                  <p>I'm passionate about understanding how computer networks function and work together to create the beautiful internet we all know and love. I've built small-scale OSPF networks as well as enterprise-level infrastructures featuring VLANs, DHCP, DNS, dynamic routing, segmentation, security and access controls, network monitoring mechanisms, and secure Wi-Fi. I also host a home media server utilizing Docker, Jellyfin, Tailscale, the *arr suite of apps and a few trustworthy NZB indexers. I have recently been building out the Red Rocks Community College CyberLab infrastructure using a collapsed-core network model with an MDF and 3 IDF's for Cisco networking classes. Additionally, I'm establishing a fully virtualized Windows Active Directory domain using a highly available Proxmox cluster in order to host CTFs and red/blue team style challenges down the road</p>
                 </div>
               </div>
             </div>
@@ -131,17 +131,18 @@
               <div class="col-md-4 d-flex align-items-center">
                 <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
                 </a>
-                <span class="mb-3 mb-md-0 text-body-secondary">© 2025 Parke | Made with ❤️ and Bootstrap Bill Turner</span>
+                <footer>
+                  <p><span id="current-year"></span></p>
+                </footer>
               </div>
             </footer>
           </div>
     </section>
 
-
+    <script>document.getElementById('current-year').textContent = "© Parke " + new Date().getFullYear() + " | Made with ❤️ and Bootstrap";</script>
     <script type="text/javascript" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/TweenLite.min.js"></script>
     <script type="text/javascript" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/EasePack.min.js"></script>
     <script type="text/javascript" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo.js"></script>
-
 
 </body>
 </html>
